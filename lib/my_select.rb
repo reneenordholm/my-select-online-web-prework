@@ -3,5 +3,5 @@ def my_select(collection)
  nums = []
 
   nums do |num|
-    num.select { |num|  num.even?  }
+    collection << num.select { |num|  num.even?  }
 end
