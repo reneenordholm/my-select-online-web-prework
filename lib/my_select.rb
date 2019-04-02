@@ -3,4 +3,5 @@ def my_select(collection)
   yield(collection.select { |collection|  collection.even?  })
 
  end
+ collection
 end
