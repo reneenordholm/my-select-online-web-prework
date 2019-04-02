@@ -3,8 +3,8 @@ def my_select(collection)
  nums = []
 
   nums do |num|
-    yield(collection << num.select { |num|  num.even?  })
-    i = i + 1
+   collection << num.select { |num|  num.even?  }
+    yield(nums[i])
  end
  nums
 end
