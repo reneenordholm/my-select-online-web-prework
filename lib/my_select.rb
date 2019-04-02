@@ -3,7 +3,7 @@ def my_select(collection)
  nums = []
   while i < collection.length
   nums do |num|
-    yield(collection << num.select { |num|  num.even?  })
+    collection << num.select { |num|  num.even?  }
     i = i + 1
  end
  nums
