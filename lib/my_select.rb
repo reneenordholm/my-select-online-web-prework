@@ -6,5 +6,4 @@ def my_select(collection)
    collection << num.select { |num|  num.even?  }
     yield(nums[i])
  end
- nums
 end
